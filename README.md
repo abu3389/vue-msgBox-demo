@@ -1,6 +1,6 @@
 # ec-dialog
 
-#### 基于vue2.0开发弹窗项目，拥有最基本的功能。以后再逐一完善
+#### 基于vue2.0开发弹窗项目，一个测试项目demo
 
 ## 使用方法
 
@@ -25,7 +25,6 @@
             //点击取消
         })
 
-![img](http://chuantu.biz/t6/348/1532591538x1822611227.jpg)
 
 #### alert
     this.$ec_alert({
@@ -36,14 +35,13 @@
             alert(this.name)
     })
 
-![img](http://chuantu.biz/t6/348/1532591624x-1566688712.jpg)
 
 #### tips
     this.$ec_tips({
         content:'点赞成功'
     })
 
-![img](http://chuantu.biz/t6/348/1532591654x-1566688712.gif)
+
 
 #### loading
     let loadingContent = this.$ec_loading({
@@ -53,7 +51,6 @@
     //两秒后关闭
     setTimeout(()=>{loadingContent.close();},2000)
 
-![img](http://chuantu.biz/t6/348/1532591699x-1566688712.gif)
 
 #### 配置说明
 * title-标题
@@ -117,8 +114,6 @@ js代码
                 }
             },
 
-![](http://chuantu.biz/t6/348/1532591790x-1404817491.jpg)
-
 #### 配置说明
 
 show:是否显示
@@ -133,11 +128,9 @@ close：窗口关闭时触发
 
 窗口的样式，支持两种，默认情况和'tips'  //theme:'tips'
 
-![img](http://chuantu.biz/t6/348/1532591538x1822611227.jpg)
 
 还有这种
 
-![img](http://chuantu.biz/t6/348/1532591996x-1404755439.jpg)
 
     this.$ec_confirm({
         title:'提示',
@@ -153,7 +146,6 @@ close：窗口关闭时触发
 
 默认是蓝色，如果想改变颜色，就多加一个十六进制的颜色值
 
-![img](http://chuantu.biz/t6/348/1532592283x-1404755576.jpg)
 
     this.$ec_confirm({
         title:'提示',
@@ -184,8 +176,6 @@ close：窗口关闭时触发
         alert(this.name)
     })
 
-![img](http://chuantu.biz/t6/348/1532592690x-1404817724.gif)
-
 #### 从上进入
 
     this.$ec_alert({
@@ -199,25 +189,19 @@ close：窗口关闭时触发
         alert(this.name)
     })
 
-![img](http://chuantu.biz/t6/348/1532592765x1822611383.gif)
 
 #### 从下进入
 
     animation:'bottom-bounce',//从下进入动画
 
-![img](http://chuantu.biz/t6/348/1532592710x-1404817724.gif)
 
 #### 从左进入
 
     animation:'left-bounce',//从左进入动画
 
-![img](http://chuantu.biz/t6/348/1532592797x1822611383.gif)
-
 #### 从右进入
 
     animation:'right-bounce',//从右进入动画
-
-![img](http://chuantu.biz/t6/348/1532592814x1822611383.gif)
 
 ### button
 
