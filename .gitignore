@@ -1,8 +1,2 @@
-# Created by .ignore support plugin (hsz.mobi)
-.idea
-node_modules
-*.log
-dist
-webpack.config.babel.js
-webpack.config.js
-src/sass/lib/
+123.txt
+666666.txt
